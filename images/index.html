@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Instagram</title>
+    <style>
+
+        .body {
+            font-family: sans-serif;
+        }
+
+        .logoig {
+            height: 60px;
+            width: 175px;
+            margin-top: 30px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 100px;
+            height: 100%;
+        }
+
+        .form-border {
+            border: 1px solid #dbdbdb;
+            padding: 20px;
+            width: 335px;
+            height: 400px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .account-border {
+            border: 1px solid #dbdbdb;
+            padding: 20px;
+            width: 335px;
+            text-align: center;
+            margin-top: 15px;
+            height: 40px;
+            text-decoration: none;
+
+    
+        }
+
+        label,
+        input {
+            margin: 5px 0;
+            width: 80%;
+            background-color: #f3f3f3;
+            height: 35px;
+            border-radius: 2px;
+            border-color: rgb(210, 210, 210);
+         
+        }
+
+        .or-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0;
+            height: 50px;
+
+        }
+
+        .or-container p {
+            margin: 0 10px;
+        }
+
+        .meta-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0;
+        }
+
+        .meta-container a {
+            margin: 0 10px;
+        }
+
+        
+        input[type="submit"] {
+            width: 82%;
+            height: 35px;
+            background-color: #4caef4;
+            border-radius: 10px;
+            border-color: white;
+            
+        }
+
+        .myrow {
+            height: 1px;
+            width: 100px;
+        }
+       
+        .footer-container a {
+    text-decoration: none;
+        }
+    .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+
+        }
+
+        .copyright {
+    text-align: center;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-border">
+            <form>
+                <img class="logoig" src="Instagram_logo.svg.png" alt="logo">
+                <input type="text" id="username" name="username" placeholder="Phone number, username, or email">
+                <input type="password" id="password" name="password" placeholder="Password">
+                <input type="submit" value="Log in">
+                <div class="or-container">
+                    <hr class="myrow" ><p>or</p><hr class="myrow">
+                </div>
+
+                <div class="altlogin">
+                <a href="#">Log in with Facebook</a>
+                </div>
+
+                <div class="forgot">
+                <a href="#">Forgot password?</a>
+                </div>
+            </form>
+        </div>
+        <div class="account-border">
+            <p>Don't have an account? <a href="#">Sign up</a></p>
+        </div>
+        <p>Get the app.</p>
+        <div class="meta-container">
+            <a href="#">Get it on Google Play</a>
+            <a href="#">Get it from Microsoft</a>
+        </div>
+</body>
+<footer>
+    <div class="footer-container">
+      <a href="#meta">Meta</a>
+      <a href="#about">About</a>
+      <a href="#blog">Blog</a>
+      <a href="#jobs">Jobs</a>
+      <a href="#help">Help</a>
+      <a href="#api">API</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#terms">Terms</a>
+      <a href="#top-accounts">Top Accounts</a>
+      <a href="#locations">Locations</a>
+      <a href="#instagram-lite">Instagram Lite</a>
+      <a href="#contact-uploading-non-users">Contact Uploading & Non-Users</a>
+    </div>
+    <div class="copyright">
+      © 2023 Instagram from Meta
+    </div>
+  </footer>
+  
